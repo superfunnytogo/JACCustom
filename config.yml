@@ -19,9 +19,9 @@ settings:                       //GENERAL PLUGIN SETTINGS
 
 sub-plugins:                    //SUB-PLUGIN SETTINGS
   donations:                      //Donations Sub-Plugin Settings
-    enable: false                   //true activates the donations sub-plugin, if false, this sub-plugin will NOT function
+    enable: false                   //true activates the donations sub-plugin, if false, this sub-plugin will NOT function *REQUIRED
     mysql:
       table-name: donations         //MySQL table name for the donations sub-plugin *REQUIRED
     server:
       server-name: server           //Server name, this must be consistant with Web-Side names *REQUIRED
-      update-time: 10               //Time in seconds the plugin will attempt to Rank Players
+      update-time: 10               //Time in seconds the plugin will attempt to Rank Players *REQUIRED
