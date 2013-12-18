@@ -8,5 +8,5 @@ This GitHub Repository is dedicated issue tracking and help for the plugin.
 
 ##GitHub Contents
 
-1. [Issue Tracker](../../../issues)
+1. [Issue Tracker](../../issues)
 2. [config.yml help](/config.md)
