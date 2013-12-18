@@ -1,0 +1,27 @@
+#################################################
+#                                               #
+#                                               #
+#                   JAC Custom                  #
+#                by Superfunnytogo              #
+#                 Version: 1.1.2                #
+#                                               #
+#                                               #
+#################################################
+
+settings:                       //GENERAL PLUGIN SETTINGS
+  enable-OP: false                  //If true, OP's have access to all commands, If false, proper permissions are needed even if player is OP *REQUIRED
+  mysql:
+    host: localhost                 //IP address for MySQL Host *REQUIRED
+    port: 3306                      //Port for MySQL Host *REQUIRED (if you are unsure, leave as 3306)
+    username: root                  //Username for MySQL *REQUIRED
+    password: thingy                //Password for MySQL *REQUIRED
+    database: jaccustom             //Database/Schema for MySQL, JAC Custom needs a private Database *REQUIRED
+
+sub-plugins:                    //SUB-PLUGIN SETTINGS
+  donations:                      //Donations Sub-Plugin Settings
+    enable: false                   //true activates the donations sub-plugin, if false, this sub-plugin will NOT function
+    mysql:
+      table-name: donations         //MySQL table name for the donations sub-plugin *REQUIRED
+    server:
+      server-name: server           //Server name, this must be consistant with Web-Side names *REQUIRED
+      update-time: 10               //Time in seconds the plugin will attempt to Rank Players
