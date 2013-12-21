@@ -24,4 +24,4 @@ sub-plugins:                    //SUB-PLUGIN SETTINGS
       table-name: donations         //MySQL table name for the donations sub-plugin *REQUIRED
     server:
       server-name: server           //Server name, this must be consistant with Web-Side names *REQUIRED
-      update-time: 10               //Time in seconds the plugin will attempt to Rank Players *REQUIRED
+      update-time: 10               //Time in seconds the plugin will attempt to Rank Players *REQUIRED MINIMUM OF 10 SECONDS
